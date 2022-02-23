@@ -61,8 +61,15 @@ stod.cpp - how to convert a string like "34.2242" into a double precision floati
 
 For this part of the assignment, you will write code to accept commands from the user once you've read the entire places file in. Your program should process the following commands. 
 
-LIST - generate a list of ALL places in this format: 
+LIST - generate a list of ALL places 
 
+FIND - read from the user the name of a place and list (in the format above) the data on that place
+
+TAG - read from the user a tag and list ALL places which contain that tag 
+
+RADIUS - read from the user latitude and longitude data followed by a radius, in miles, produce a list of places that are within that radius
+
+For all places output, follow this format EXACTLY:
 ```
 Name: Hughes Main Library
 Address: 25 Heritage Green PL
@@ -78,11 +85,7 @@ Longitude: -82.3969
 ```
 Note the space after : and blank line between places
 
-
 # Grade Levels
-For grade of A: write the distance_from method for GeoLocation class, in addition to the B version; IF YOU DO NOT WISH TO TACKLE THE A VERSION EMAIL ME WITH SUBJECT LINE: "236 distance formula" and I will send you the source code; this code is NOT that difficult once you do a little Googling
-For grade of B: complete Part D, in addition to the C version
-For grade of C: complete parts A, B, C
 
 # Style Guidelines and Grading:
 
@@ -91,4 +94,9 @@ Use lots of functions. Your main program should call each function. It should be
 Follow good general style guidelines such as: appropriately using control structures like loops and if/else statements; avoiding redundancy using techniques such as functions, loops, and if/else factoring; good variable names, and naming conventions; and not having any lines of code longer than 100 characters. Use proper indentation for each line of code so code look neat, organized and easy to read.  
 
 Comment descriptively at the top of your programs, each function, and on complex sections of your code.  Comments should explain each function’s behavior, parameters and returns.  
+
+Don't forget the standard program comments at the top of your course code file. 
+
+Name your file location.cpp and submit to CodePost by the due date. 
+
 
