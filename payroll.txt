@@ -1,0 +1,12 @@
+joe
+smith
+45.33
+tom
+davis
+34.25
+sally
+fillmore
+52.75
+george
+clements
+15.00
