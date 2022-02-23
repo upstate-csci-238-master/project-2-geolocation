@@ -44,7 +44,7 @@ int main() {
 	while (!in.eof()) {
 		p = readRecord(in);
     printRecord(p);
-		in.peek();
+		in.peek(); // https://softwareengineering.stackexchange.com/questions/318081/why-does-ifstream-eof-not-return-true-after-reading-the-last-line-of-a-file
 	}
 	in.close();
 }
