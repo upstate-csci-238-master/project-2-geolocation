@@ -87,7 +87,10 @@ Note the space after : and blank line between places
 
 In dealing with distance on the surface of the earth, keep in mind, per the discovery attributed to Christopher Columbus, the earth is NOT flat. So check out this page for help. Use Spherical Law of Cosines for this assignment. https://www.movable-type.co.uk/scripts/latlong.html
 
+use the following C++ code to define a constant and use in your distance calculations.
+```
 const RADIUS = 3963.1676  // Earth radius in miles
+```
 
 # Grade Levels
 
