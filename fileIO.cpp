@@ -2,6 +2,7 @@
 // Project #2 - Geolocator
 //
 // this demo shows how to read data from a text file into an array of structs
+// NOTE: This program uses the text file called payroll.txt located in this repository; be sure to download
 
 #include <iostream>
 #include <fstream>
