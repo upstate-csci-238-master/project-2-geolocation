@@ -27,11 +27,11 @@ You should put each place together on separate lines with a TAB between each fie
 Starbucks   2120 Boiling Springs Rd restaurant, coffee  35.0243 -81.9604
 ```
 You are to choose at least 10 locations (for a C) and to come up with the same 5-field (name, street address, tag(s) separated by commas, longitude, latitude) entry for each location.  The locations should not be private residences and should not include offensive descriptions.  Put it all together in a file called XXXPlaces.txt where XXX are the initials of your name.  You can use any text editor you like or you can use Atom, but if you use an editor like Microsoft Word, be sure to save it as plain text. Submit this file to Blackboard not later than the due date. 
-
+```
 Grade of C: 10 locations
 Grade of B: 25 locations
 Grade of A: 50 locations
-
+```
 Grade will be determined by quantity and quality of the data. Don't invent fake data!
 
 
@@ -51,15 +51,33 @@ There is a sample program in the repository called parse.cpp that shows how to p
 You will read the places from a text file called places.txt. There is sample file you can start with in this repository. BUT THE FINAL PROJECT MUST USE THE FILE CREATED BY THE ENTIRE CLASS. 
 
 Here are some sample C++ programs in this repository that will help you with new concepts. 
-
+```
 parse.cpp - how to parse a string that has delimeters between each field of the string
 getline.cpp - how to read an entire line of strings rather a single string
 fileIO.cpp - how to read text data from a file
 stod.cpp - how to convert a string like "34.2242" into a double precision floating point number
-
+```
 # Part C: processing user commands 
 
-For this part of the assignment, you will write a class called PlaceInformation that stores information about a place of interest.   It should have the following public methods:
+For this part of the assignment, you will write code to accept commands from the user once you've read the entire places file in. Your program should process the following commands. 
+
+LIST - generate a list of ALL places in this format: 
+
+```
+Name: Hughes Main Library
+Address: 25 Heritage Green PL
+Tag(s): library
+Latitude: 34.8563
+Longitude: -82.402
+
+Name: Bon Secours Wellness Arena
+Address: 650 N Academy St
+Tag(s): stadium, tourist_attraction
+Latitude: 34.8573
+Longitude: -82.3969
+```
+Note the space after : and blank line between places
+
 
 # Grade Levels
 For grade of A: write the distance_from method for GeoLocation class, in addition to the B version; IF YOU DO NOT WISH TO TACKLE THE A VERSION EMAIL ME WITH SUBJECT LINE: "236 distance formula" and I will send you the source code; this code is NOT that difficult once you do a little Googling
