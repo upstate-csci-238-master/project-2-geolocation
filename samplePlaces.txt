@@ -1,0 +1,10 @@
+Liberty Tap Room & Grill	941 S Main St	restaurant	34.843140	-82.408694
+Delaney's Irish Pub	117 W Main St	restaurant	34.949434	-81.932073
+FR8yard	125 E Main St	restaurant, bar	34.949570	-81.930932
+Dave and Buster's	1025 Woodruff Rd Suite P101	arcade, restaurant	34.833839	-82.303990
+Frankie's Fun Park	45 Park Woodruff Dr	arcade	34.821359	-82.296067
+Topgolf	201 Clifton Ct	golf, sports bar	34.856945	-82.261568
+Lieu's Asian Bistro	103 E Beacon Dr	restaurant	34.858560	-82.265042
+Falls Park on the Reedy	601 S Main St	park	34.844720	-82.401151
+Reys	20 N Main St	restaurant, bar	34.851328	-82.398565
+Smoke On the Water	1 Augusta St #202	restaurant	34.843916	-82.404364
